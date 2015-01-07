@@ -5,7 +5,17 @@ settings:
         personal_access_token: "839082e5aafff73e9f6da79e15bc2bab78e0cc68" # Required
     phpcra:
         analyze:
-            phpcs: true
-            php-cs-fixer: true
+            phpcs:
+                scan: true
+                args:
+                    psr-1: true
+                    psr-2: true
+            php-cs-fixer:
+                scan: true
+                args:
+                    level: "psr2"
+                    dry-run: true
+                    verbose: true
+                    diff: true
         output:
-            default: "console" # Required
+            format: "console" # Required
