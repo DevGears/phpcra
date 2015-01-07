@@ -17,7 +17,7 @@ Please check `composer.json` for details.
 
 <demo link here>
 
-###And where is the documentation?
+###Where is the documentation?
 
 
 ###And, in case I want some references?
