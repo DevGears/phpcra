@@ -2,3 +2,5 @@ nbproject
 
 vendor/
 composer.lock
+
+config/phpcra.yml
