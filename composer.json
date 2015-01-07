@@ -1,0 +1,28 @@
+{
+    "name": "devgears/phpcra",
+    "description": "PHP CRA - Code Review Analyzer for PHP projects on GitHub.",
+    "keywords": ["code review", "cli", "psr"],
+    "authors": [
+        {
+            "name": "Davi Marcondes Moreira (@devdrops)",
+            "email": "davi.marcondes.moreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "PHPCRA": "src/"
+        },
+        "psr-4": {
+            "PHPCRA\\": "src/"
+        }
+    },
+    "require": {
+        "knplabs/php-github-api": "@stable",
+        "league/flysystem": "@stable",
+        "symfony/console": "@stable",
+        "symfony/yaml": "@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
+}
