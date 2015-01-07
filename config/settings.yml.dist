@@ -2,7 +2,7 @@ settings:
     tmp_dir: "/tmp" # Required
     github:
         repository: "DevGears/phpcra" # Required
-        user_id: "839082e5aafff73e9f6da79e15bc2bab78e0cc68" # Required
+        personal_access_token: "839082e5aafff73e9f6da79e15bc2bab78e0cc68" # Required
     phpcra:
         analyze:
             phpcs: true
