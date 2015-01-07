@@ -17,7 +17,7 @@
         }
     },
     "require": {
-        "knplabs/php-github-api": "@stable",
+        "knplabs/github-api": "@stable",
         "league/flysystem": "@stable",
         "symfony/console": "@stable",
         "symfony/yaml": "@stable"
